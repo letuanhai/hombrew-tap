@@ -2,7 +2,7 @@ cask "kapeli-dash6" do
   version "6.4.3"
   sha256 "647c1bf186d7a0c598390a64e2ec504f37c4475e02ca1f3c45164e29fa410283"
 
-  url "https://github.com/letuanhai/homebrew-tap/releases/download/kapeli-dash6-#{version.major}/Dash.zip", verified: "github.com/letuanhai/homebrew-tap"
+  url "https://github.com/letuanhai/homebrew-tap/releases/download/kapeli-dash6-#{version}/Dash.zip", verified: "github.com/letuanhai/homebrew-tap"
   name "Dash"
   desc "API documentation browser and code snippet manager"
   homepage "https://kapeli.com/dash"
