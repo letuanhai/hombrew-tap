@@ -20,8 +20,7 @@ cask "cleanmymac-x" do
   end
 
   auto_updates true
-  conflicts_with cask: "cleanmymac-zh"
-  conflicts_with cask: "cleanmymac"
+  conflicts_with cask: "cleanmymac-zh cleanmymac"
   depends_on macos: ">= :high_sierra"
 
   app "CleanMyMac X.app"
